@@ -12,7 +12,7 @@ div.main
 section
 {
 	
-	
+	background-color: orange;
 	border:solid 1px black;
 	padding: 0px;
 	float:left;
@@ -23,7 +23,7 @@ section
 
 section div.title
 {
-	background-color:ivory;
+	
 	border-bottom:solid 1px black;
 	border-left:solid 1px black;
 	
@@ -36,12 +36,33 @@ section div.title
 	right:0px;
 }
 
+
+
 section div.title h3
 {
 	padding: 2px;
 	box-sizing: border-box;
 	margin: 0px;
+	color:white;
 	font-size:125%;
+}
+
+section div.title h3.name1
+{
+	background-color:brown;
+
+}
+
+section div.title h3.name2
+{
+	background-color:midnightblue;
+
+}
+
+section div.title h3.name3
+{
+	background-color:darkgreen;
+
 }
 
 section div.data
@@ -65,7 +86,7 @@ section div.data p
 
 	section
 	{
-		background-color: yellow;
+		
 		width:30.66%;
 		margin:1.33%;
 	}
@@ -78,14 +99,14 @@ section div.data p
 	
 	section.line1
 	{
-		background-color: blue;
+		
 		width:48%;
 		margin:1%;
 	}
 
 	section.line2
 	{
-		background-color: blue;
+		
 		width:98%;
 		margin:1%;
 	}
@@ -103,7 +124,7 @@ section div.data p
 
 	section
 	{
-		background-color: pink;
+		
 		width:98%;
 		margin:1%;
 	}
