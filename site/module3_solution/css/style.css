@@ -1,0 +1,139 @@
+body
+{
+	background-color: DarkSlateGrey;
+	font-family:  serif;
+
+
+
+}
+
+#header-nav
+{
+background-color: gold;
+border:5px solid DarkSlateGray;
+padding:0px;
+}
+
+.navbar-header
+{
+	margin:auto 0px auto ;
+	position: relative;
+}
+
+.navbar-brand h1
+{
+	color: maroon;
+	font-size: 6vw;
+	text-shadow: 2px 2px 0px orange;
+}
+
+ #toggle-button
+{
+	border:2px solid white;
+	
+
+	
+}
+
+#menu
+{
+	background-color: DarkGoldenRod;
+	width:100%;
+}
+
+
+li.menu-list
+{
+	border: 1px solid gold;
+	
+	font-size: 4vw;
+
+}
+
+li.menu-list a
+{
+	color:white;
+	font-weight: bold;
+}
+
+section.main
+{
+	padding:5px;
+
+}
+
+section.main h3
+{
+	color: white;
+	font-size: 6vw;
+}
+
+section.main section.type
+{
+	margin-bottom: 20px;
+
+}
+
+section.main div.item
+{
+	border:2px solid gold;
+	background-color: rgb(153, 115, 0);
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+section.main div.item
+{
+	border:2px solid gold;
+	
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+section.main div.item div.title h2
+{
+	color: maroon;
+	background: gold;
+	font-size: 5vw;
+}
+
+
+section.main div.item div.data p
+
+{
+	color: rgb(254, 231, 231);
+	padding: 5px;
+	font-size: 2.5vw;
+
+}
+/*media queries*/
+@media( min-width: 992px)
+{
+
+	#toggle-button, #menu
+	{
+		display: none;
+	}
+
+}
+
+@media( min-width: 768px) and (max-width:991px )
+{
+
+	#toggle-button, #menu
+	{
+		display: none;
+	}
+
+}
+
+@media( max-width: 767px) 
+{
+	.navbar-brand h1
+	{
+	
+	font-size: 8vw;
+	}
+	
+
+}
